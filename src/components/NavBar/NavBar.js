@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Header from '../Header/Header';
 
 const NavBar = () => {
@@ -7,7 +7,7 @@ const NavBar = () => {
         <div>
             <div className="navbar bg-accent drop-shadow-xl">
                 <div className="flex-1 ml-14">
-                    <NavLink to='/' className="btn btn-ghost normal-case text-3xl text-white">Quizzora</NavLink>
+                    <Link to='/' className="btn btn-ghost normal-case text-3xl text-white">Quizzora</Link>
                 </div>
                 <div className="flex-none mr-14 text-white">
                     <ul className="flex gap-10 text-lg font-semibold">
@@ -15,7 +15,7 @@ const NavBar = () => {
                             <NavLink
                                 to="/topics"
                                 className={({ isActive }) =>
-                                    isActive ? 'text-cyan-500' : undefined
+                                    isActive ? 'text-cyan-300' : undefined
                                 }
                             >
                                 Topics
@@ -25,7 +25,7 @@ const NavBar = () => {
                             <NavLink
                                 to="/statistics"
                                 className={({ isActive }) =>
-                                    isActive ? 'text-cyan-500' : undefined
+                                    isActive ? 'text-cyan-300' : undefined
                                 }
                             >
                                 Statistics
@@ -35,7 +35,7 @@ const NavBar = () => {
                             <NavLink
                                 to="/blog"
                                 className={({ isActive }) =>
-                                    isActive ? 'text-cyan-500' : undefined
+                                    isActive ? 'text-cyan-300' : undefined
                                 }
                             >
                                 Blog

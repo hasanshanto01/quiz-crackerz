@@ -1,10 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Topic = ({ topic }) => {
     // console.log(topic);
-    const { logo, name, total } = topic;
+    const { id, logo, name, total } = topic;
     return (
         <div>
             <div className="card card-compact w-full bg-base-100 shadow-xl">
@@ -16,8 +17,10 @@ const Topic = ({ topic }) => {
                     </div>
                     <div className="">
                         <button className="btn btn-accent text-white">
-                            <span className='mr-2'>Start Practice</span>
-                            <FontAwesomeIcon icon={faArrowRightLong}></FontAwesomeIcon>
+                            <Link to={`/quiz/${id}`}>
+                                <span className='mr-2'>Start Practice</span>
+                                <FontAwesomeIcon icon={faArrowRightLong}></FontAwesomeIcon>
+                            </Link>
                         </button>
                     </div>
                 </div>

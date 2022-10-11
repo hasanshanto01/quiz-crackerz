@@ -4,8 +4,8 @@ import Header from '../Header/Header';
 import Topic from '../Topic/Topic';
 
 const Topics = () => {
-    const loadTopics = useLoaderData();
-    const { data } = loadTopics;
+    const loadTopicsData = useLoaderData();
+    const { data } = loadTopicsData;
     // console.log(data);
     return (
         <div>
