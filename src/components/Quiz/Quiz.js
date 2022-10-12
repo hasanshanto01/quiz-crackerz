@@ -6,11 +6,7 @@ const Quiz = () => {
     const loadQuizData = useLoaderData();
     const { data } = loadQuizData;
     const { name, questions } = data;
-    // const [quizNumber,setQuizNumber]=useState(1);
-    // // console.log(questions);
-    // useEffect(()=>{
 
-    // },[])
     // console.log(name)
     return (
         <div className='my-10'>
