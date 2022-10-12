@@ -1,3 +1,13 @@
+# About Project
+Project Name: Quizzora
+Live-site: 
+
+Project Descripton:
+1. This is a quiz related website.
+2. Here, user can select quiz topic from availabe topic.
+3. Have a statistical view of questions of quiz topic on statistic page.
+4. Have a blog page
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
