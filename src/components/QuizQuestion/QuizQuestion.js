@@ -9,7 +9,7 @@ const QuizQuestion = ({ singleQuestion, quizNumber }) => {
     const { question, options, correctAnswer } = singleQuestion;
     // console.log(id);
     const handleQuizAnswer = (answer) => {
-        toast('yes'
+        toast(`Correct answer is: ${correctAnswer}`
             , {
                 position: "top-center",
                 autoClose: 5000,
