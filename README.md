@@ -4,7 +4,7 @@ Live-site:
 
 Project Descripton:
 1. This is a quiz related website.
-2. Here, user can select quiz topic from availabe topic.
+2. Here, user can select quiz topic from available topic.
 3. Have a statistical view of questions of quiz topic on statistic page.
 4. Have a blog page
 
